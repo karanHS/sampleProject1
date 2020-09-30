@@ -7,17 +7,17 @@
 //
 
 import UIKit
-//
-//class tabBar: UITabBarController {
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        setTabBarItems()
-//    }
-//
-//    func setTabBarItems(){
-//
+
+class tabBar: UITabBarController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        setTabBarItems()
+    }
+
+    func setTabBarItems(){
+
 //         let myTabBarItem1 = (self.tabBar.items?[0])! as UITabBarItem
 //         myTabBarItem1.image = UIImage(named: "widget_icons-3")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
 //         myTabBarItem1.selectedImage = UIImage(named: "widget_icons-3 ")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
@@ -42,7 +42,7 @@ import UIKit
 //         myTabBarItem4.selectedImage = UIImage(named: "widget_icons-3")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
 //         myTabBarItem4.title = ""
 //         myTabBarItem4.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
-//
-//    }
-//
-//}
+
+    }
+
+}
